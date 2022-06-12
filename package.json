@@ -1,0 +1,22 @@
+{
+  "name": "pagefrombook",
+  "version": "1.0.0",
+  "description": "Assigned for Advanced CSS",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass styles.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasevey/bookthing.git"
+  },
+  "author": "Dave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dasevey/bookthing/issues"
+  },
+  "homepage": "https://github.com/dasevey/bookthing#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

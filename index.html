@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Book Page</title>
+  </head>
+  <body>
+    <div class="paragraph">
+      For example, say your developers have come up with the perfect
+      amortization program and you want to install it on the workgroup server
+      for other systems to remotely mount and use. Because this is a third-party
+      or custom application, the logical place for it is in /usr/local/appname,
+      possibly with a link to the program binary in the /usr/local/bin directory
+      (because that's in the path).
+    </div>
+    <section class="alert">
+      <div class="alert--alert">
+        <span class="alert--alert-first">Al</span
+        ><span class="alert--alert-middle">e</span
+        ><span class="alert--alert-end">rt</span>
+      </div>
+      <div class="alert--paragraph">
+        If given a choice between putting the software package
+        <span class="alert--bigprog">bigprog</span> in the
+        <strong>/usr/local/<span class="alert--bigprog">bigprog</span></strong>
+        section and the
+        <strong>/opt/<span class="alert--bigprog">bigprog</span></strong>
+        section, it's hard to choose. Read any relevant exam question
+        closely--the main difference being that the
+        <strong>/opt</strong> section is not considered to be sharable, whereas
+        the <strong>/usr</strong> section is often shared and mounted by client
+        systems.
+      </div>
+    </section>
+    <section class="paragraph">
+      <h1 class="paragraph--h1">File Management Commands</h1>
+      <div class="paragraph--paragraph">
+        A major section of the 101 exam is dedicated to how to run commands
+        properly with the right options and arguments. As a good sysadmin,
+        you'll be expected to know how to create, delete, edit, set permissions
+        on, display, move, copy, and determine the type of files and programs.
+      </div>
+    </section>
+    <section class="alert">
+      <div class="alert--alert">Alert</div>
+      <div class="alert--paragraph">
+        You must be able to pick proper and working commands out of lists of
+        possibilities, type in appropriate strings in fill-in-the-blank boxes,
+        and in general show that you've run the programs and utilities in
+        question.
+      </div>
+    </section>
+    <section class="paragraph">
+      <h2 class="paragraph--h2">Tips for working with Linux files</h2>
+      <div class="paragraph--paragraph">
+        Because most users and sysadmins come from a Windows or other OS
+        background, a quick set of recommendations for the less-experienced can
+        be of help here:
+      </div>
+      <ul>
+        <li>
+          <h3 class="paragraph--h3">Hidden files aren't really hidden-</h3>
+          They just begin with a ., such as the
+          <span class="paragraph--small">.bashrc</span> and
+          <span class="paragraph--small">.bash_profile</span> files. These are
+          not viewable by normal users with conventional commands and switches
+          and aren't deleted by commands such as
+          <span class="paragraph--small">rm -f *.*</span>.
+        </li>
+        <li>
+          <h3 class="paragraph--h3">
+            Filenames can contain multiple periods or no period characters-
+          </h3>
+          The filenames
+          <span class="paragraph--small">this.is.a.long.file</span> and
+          <span class="paragraph--small">thisisalongfile</span> are perfectly
+          reasonable and possible.
+        </li>
+        <li>
+          <h3 class="paragraph--h3">
+            Spaces in filenames look nice, but are a pain to type-
+          </h3>
+          Use an _ or a - instead of spaces because it's neater and easier than
+          prefixing all spaces with a <span class="paragraph--small">\</span>.
+          (To display a space in a filename, the system shows a space prefixes
+          with a backslash.)
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
